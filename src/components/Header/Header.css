@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between; /* Espacio entre los elementos */
+  align-items: center; /* Alinea verticalmente al centro */
+  padding: 1rem;
+  background-color: #282c34;
+}
+
+.header-title {
+  flex: 1; /* Ocupa el espacio disponible, empuja el botón hacia la derecha */
+  color: #ff0000;
+}
+
+
+.favorites-button {
+  background-color: yellow;
+  color: #ff0000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center; /* Centra el texto dentro del botón */
+  transition: background-color 0.3s, transform 0.3s;
+  font-weight: bold;
+}
+
+.favorites-button:hover {
+  background-color: #ff0000;
+  transform: scale(1.05);
+  color: yellow;
+}
