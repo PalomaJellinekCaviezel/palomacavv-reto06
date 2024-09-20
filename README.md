@@ -25,10 +25,3 @@ Users should be able to:
 ### Video demo:
 
 
-
-Uploading Screen Recording 2024-09-20 130455.mp4…
-
-
-
-Uploading Screen Recording 2024-09-20 130455.mp4…
-
