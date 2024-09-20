@@ -1,9 +1,10 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import Context from "../context/Context";
-import { FaHeart } from "react-icons/fa"; // Importa el ícono de corazón
+import { FaHeart, FaRegHeart } from "react-icons/fa"; // Importa ambos íconos
 
 function PokemonCard({ name, url }) {
-  const { savePokemon } = useContext(Context);
+  const { savePokemon, favorites } = useContext(Context);
+  const isFavorite = favorites.some((fav) => fav.name === name); // Verifica si el Pokémon ya está en favoritos
 
   const handleFavorite = () => {
     savePokemon({ name, url });
@@ -17,7 +18,7 @@ function PokemonCard({ name, url }) {
       <h3>{name}</h3>
       <img src={imageUrl} alt={name} />
       <button className="favorite-button" onClick={handleFavorite}>
-        <FaHeart />
+        {isFavorite ? <FaHeart color="red" /> : <FaRegHeart />}
       </button>
     </div>
   );

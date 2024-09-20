@@ -7,7 +7,7 @@ function Favorites() {
 
   return (
     <>
-      <h2>Estos son tus Pokemones favoritos</h2>
+      <h2 className="title">Estos son tus Pokemones favoritos</h2>
       <div className="favorites">
         {favorites.length > 0 ? (
           favorites.map((pokemon) => (
