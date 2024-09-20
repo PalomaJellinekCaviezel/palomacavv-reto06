@@ -22,6 +22,10 @@ Users should be able to:
 
 **https://palomajellinekcaviezel.github.io/palomacavv-reto06**
 
-### Video demo:
+### Screenshots:
+
+<img src="https://github.com/user-attachments/assets/91b9fbc4-d689-4550-80f2-5295be083d37" width="500" />
+<img src="https://github.com/user-attachments/assets/0cbe1be6-65fb-438c-aba3-43d35dfdc426" width="500" />
+
 
 
