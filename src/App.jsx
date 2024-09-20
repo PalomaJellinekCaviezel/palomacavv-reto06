@@ -7,7 +7,7 @@ import Header from "./components/Header/Header";
 function App() {
   return (
     <UseContext>
-      <BrowserRouter>
+      <BrowserRouter basename="/palomacavv-reto06">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
